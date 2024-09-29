@@ -1,0 +1,15 @@
+name: envir
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - opencv
+  - pillow
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+      - opencv-python-headless
